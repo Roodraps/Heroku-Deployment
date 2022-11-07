@@ -75,3 +75,18 @@ python setup.py install
 
   # this will create build and dist after doing this step.
 '''''
+
+
+# Note 1
+ -e .   in requrements.txt it will install all the packages(folder) i.e. housing, which are existing in the folder having "__init__.py"and something will automatically created like in this case housing_prediction.egg-info( it contains our custom packages and info.) by seeing this we will get to know that our package has been installed successfully.
+
+         and for running this there should be setup.py shold be there and version should be mentained and other important info.
+
+         now only we need to only pip install -r requirements.txt , it will install everything whatever libraries required to install for housing package (because of -e . command written in requerements.txt file)
+
+ # packages 
+   find_packages() used in the setup.py .... it will create packages in every folder having __init__.py found 
+   so this is dynamically create packages  
+
+   # Note 2
+     any folder called as module and inside any file is called module eg. housing is a package and __init__.py is module

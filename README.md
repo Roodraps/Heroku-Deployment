@@ -44,12 +44,12 @@ pip install -r requirements.txt
 
 
 
-
+# make actions in github that will automatically connect with heroku
 To setup CI/CD pipeline in Heroku we need 3 information 
 1. HEROKU_EMAIL = rpsinghparihar2000@gmail.com
 2. HEROKU_API_KEY = 579e041b-5346-482f-85c2-0f8c42bd7a9f
 3. HEROKU_APP_NAME = ml-regression-prediction                  
-   # make actions in github that will automatically connect with heroku
+   
 
 
 BUILD DOCKER IMAGE 

@@ -15,7 +15,26 @@ conda create -p venv python==3.7 -y     (type it in git bash command prompt or a
 conda activate venv/
 ''''
 
-3. install flask
+3. adding the changes in the github
+''''
+"git add . "
+''''''
+
+4. commit the changes in the github
+'''''
+"git commit -m "messege that you want to give"
+'''''
+
+5. push the changes to the github
+'''''
+git push origin main
+'''''
+
+# Note 
+  step 3,4,5 are need to do to make changes in the github it will update all the foders and files in the github.
+
+
+6. install flask, and other libraries written in the requirement.txt
 '''''
 pip install -r requirements.txt
 '''''
